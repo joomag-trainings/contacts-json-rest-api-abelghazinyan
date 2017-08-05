@@ -1,0 +1,25 @@
+{
+    "name": "root/api",
+    "authors": [
+        {
+            "name": "Abel",
+            "email": "ghazinyan.abel@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/extras": "*",
+        "slim/middleware": "*",
+        "monolog/monolog": "*",
+        "j4mie/paris": "*",
+        "flynsarmy/slim-monolog": "*"
+    },
+    "archive": {
+        "exclude": ["vendor", ".DS_Store", "*.log"]
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "src/Controller/"
+        }
+    }
+}
